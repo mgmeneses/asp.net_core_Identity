@@ -1,0 +1,238 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+/* Contains the password input and the login button */
+.lockscreen-item > .lockscreen-credentials {
+    margin-left: 80px;
+  }
+  .lockscreen-item > .lockscreen-credentials input {
+    border: 0 !important;
+  }
+  .lockscreen-item > .lockscreen-credentials .btn {
+    background-color: #fff;
+    border: 0;
+  }
+  /* Extra to give the user an option to navigate the website [optional]*/
+  .lockscreen-link {
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* 
+      Page: register and login
+  */
+  .form-box {
+    width: 360px;
+    margin: 90px auto 0 auto;
+  }
+  .form-box .header {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background:#0073b7;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .form-box .body,
+  .form-box .footer {
+    padding: 10px 20px;
+    background: #fff;
+    color: #444;
+  }
+  .form-box .body > .form-group,
+  .form-box .footer > .form-group {
+    margin-top: 20px;
+  }
+  .form-box .body > .form-group > input,
+  /*.form-box .footer > .form-group > input {
+    border: #fff;
+  }*/
+  .form-box .body > .btn,
+  .form-box .footer > .btn {
+    margin-bottom: 10px;
+  }
+  .form-box .footer {
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  @media (max-width: 767px) {
+    .form-box {
+      width: 90%;
+    }
+  }
+  /* Background colors */
+.bg-red,
+.bg-danger,
+.bg-dark-red,
+.bg-light-yellow,
+.bg-yellow,
+.bg-warning,
+.bg-aqua,
+.bg-blue,
+.bg-primary,
+.bg-light-blue,
+.bg-light-green,
+.bg-indigo,
+.bg-brown,
+.bg-green,
+.bg-success,
+.bg-navy,
+.bg-teal,
+.bg-olive,
+.bg-lime,
+.bg-orange,
+.bg-fuchsia,
+.bg-purple,
+.bg-red-urgent,
+.bg-light-maroon,
+.bg-maroon,
+.bg-dim-gray,
+.bg-dark-gray,
+.bg-secondary,
+.bg-wine,
+.bg-black,
+.bg-dark {
+  color: #f9f9f9 !important;
+}
+.bg-gray {
+  background-color: #eaeaec !important;
+}
+.bg-dim-gray, .bg-secondary {
+  background-color: #777777 !important;
+}
+.bg-black, .bg-dark {
+  background-color: #222222 !important;
+}
+.bg-red, .bg-danger {
+  background-color: #f56954 !important;
+}
+.bg-dark-red{
+  background-color: #f34d34 !important;
+}
+.bg-wine{
+  background-color: #ad1f0b !important;
+}
+.bg-light-yellow{
+  background-color: #f6b753 !important;
+}
+.bg-yellow, .bg-warning {
+  background-color: #f39c12 !important;
+}
+.bg-aqua {
+  background-color: #00c0ef !important;
+}
+.bg-blue, .bg-primary {
+  background-color: #0073b7 !important;
+}
+.bg-light-blue {
+  background-color: #3c8dbc !important;
+}
+.bg-baby-blue{
+  background-color: #C8EDFF !important;
+}
+.bg-light-red {
+  background-color: #FFB6C1 !important;
+}
+.bg-red-urgent {
+  background-color: #AD1F0B !important;
+}
+.bg-light-green{
+  background-color: #00b763 !important;
+}
+.bg-green, .bg-success {
+  background-color: #00a65a !important;
+}
+.bg-navy {
+  background-color: #001f3f !important;
+}
+.bg-teal {
+  background-color: #39cccc !important;
+}
+.bg-olive {
+  background-color: #3d9970 !important;
+}
+.bg-lime {
+  background-color: #01ff70 !important;
+}
+.bg-fuchsia {
+  background-color: #f012be !important;
+}
+.bg-purple {
+  background-color: #932ab6 !important;
+}
+.bg-light-maroon{
+  background-color: #a3185c !important;
+}
+.bg-maroon {
+  background-color: #85144b !important;
+}
+
+.bg-orange{
+  background-color: #fb8c00!important;
+}
+
+.bg-indigo{
+  background-color: #3949ab!important;
+}
+
+.bg-brown{
+  background-color: #795548!important;
+}
+
+.bg-dark-gray{
+  background-color: #efefef!important;
+}

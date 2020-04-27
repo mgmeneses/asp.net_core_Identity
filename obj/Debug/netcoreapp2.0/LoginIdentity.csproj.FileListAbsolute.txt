@@ -1,0 +1,16 @@
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\LoginIdentity.deps.json
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\LoginIdentity.runtimeconfig.json
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\LoginIdentity.runtimeconfig.dev.json
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\LoginIdentity.dll
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\LoginIdentity.pdb
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.AssemblyInfoInputs.cache
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.AssemblyInfo.cs
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.dll
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.pdb
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\appsettings.json
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\bower.json
+C:\projeto\Aula\Balta.io\loginIdentity\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.csprojAssemblyReference.cache
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.csproj.CoreCompileInputs.cache
+C:\projeto\Aula\Balta.io\loginIdentity\obj\Debug\netcoreapp2.0\LoginIdentity.genruntimeconfig.cache

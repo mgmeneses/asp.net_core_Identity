@@ -1,0 +1,42 @@
+@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+<style type="text/css">
+    html {
+        background: url('images/team3.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    body {
+        background-color: transparent!important;
+    }
+</style>
+<div class="form-box" id="login-box">
+    
+    <div class="header">
+        <img src="~/images/logo1.png" width="60px" height="60px">
+    </div>
+    <form method="POST" asp-route-returnUrl="@ViewData["ReturnUrl"]">
+        <div class="body bg-gray" asp-validation-summary="All">
+            <div class="form-group">
+                <input asp-for="Email" type="email" class="form-control" maxlength="100" placeholder="Email" required/>
+            </div>
+            <div class="form-group">
+                <input asp-for="Password" type="password" class="form-control" maxlength="50" placeholder="Senha" required/>
+            </div>
+        </div>
+        <div class="body bg-blue">
+            <button class="btn btn-default btn-block">Conectar</button>
+            <li>
+                <a asp-area="" asp-controller="Account" asp-action="Register" class="bg-blue">Não consigo logar</a>
+            </li>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
