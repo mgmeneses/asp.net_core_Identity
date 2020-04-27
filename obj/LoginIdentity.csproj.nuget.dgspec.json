@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projeto\\Aula\\Balta.io\\loginIdentity\\LoginIdentity.csproj": {}
+    "C:\\projeto\\aula\\balta.io\\LoginIdentity\\asp.net_core_Identity\\LoginIdentity.csproj": {}
   },
   "projects": {
-    "C:\\projeto\\Aula\\Balta.io\\loginIdentity\\LoginIdentity.csproj": {
+    "C:\\projeto\\aula\\balta.io\\LoginIdentity\\asp.net_core_Identity\\LoginIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projeto\\Aula\\Balta.io\\loginIdentity\\LoginIdentity.csproj",
+        "projectUniqueName": "C:\\projeto\\aula\\balta.io\\LoginIdentity\\asp.net_core_Identity\\LoginIdentity.csproj",
         "projectName": "LoginIdentity",
-        "projectPath": "C:\\projeto\\Aula\\Balta.io\\loginIdentity\\LoginIdentity.csproj",
+        "projectPath": "C:\\projeto\\aula\\balta.io\\LoginIdentity\\asp.net_core_Identity\\LoginIdentity.csproj",
         "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\projeto\\Aula\\Balta.io\\loginIdentity\\obj\\",
+        "outputPath": "C:\\projeto\\aula\\balta.io\\LoginIdentity\\asp.net_core_Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,15 +41,15 @@
           "dependencies": {
             "Microsoft.AspNetCore.All": {
               "target": "Package",
-              "version": "[2.0.6, )"
+              "version": "[2.0.9, )"
             },
             "Microsoft.AspnetCore.Identity": {
               "target": "Package",
-              "version": "[2.0.2, )"
+              "version": "[2.0.4, )"
             },
             "Microsoft.AspnetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.2, )"
+              "version": "[2.0.4, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
